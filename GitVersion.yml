@@ -1,9 +1,0 @@
-tag-prefix: '[vV]\.*'
-branches:
-  main:
-    mode: ContinuousDelivery
-    regex: ^master$|^main$|^production$
-  develop:
-    mode: ContinuousDeployment
-  release:
-    mode: ContinuousDeployment

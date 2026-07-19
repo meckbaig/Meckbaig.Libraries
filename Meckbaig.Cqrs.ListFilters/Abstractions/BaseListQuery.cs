@@ -1,8 +1,8 @@
 using Meckbaig.Cqrs.Abstractons;
-using Meckbaig.Cqrs.ListFliters.Models;
+using Meckbaig.Cqrs.ListFilters.Models;
 using System.Linq.Expressions;
 
-namespace Meckbaig.Cqrs.ListFliters.Abstractions;
+namespace Meckbaig.Cqrs.ListFilters.Abstractions;
 
 public abstract record BaseListQuery<TResponse> : BaseRequest<TResponse>
 	where TResponse : BaseResponse

@@ -3,10 +3,10 @@ using FluentValidation;
 using Meckbaig.Cqrs.Dto.Abstractions;
 using Meckbaig.Cqrs.Dto.Extensions;
 using Meckbaig.Cqrs.EntityFrameworkCore.Abstractons.Entities;
-using Meckbaig.Cqrs.ListFliters.Models;
+using Meckbaig.Cqrs.ListFilters.Models;
 using System.Linq.Expressions;
 
-namespace Meckbaig.Cqrs.ListFliters.Extensions;
+namespace Meckbaig.Cqrs.ListFilters.Extensions;
 
 /// <summary>
 /// Custom EF Core extension class for dynamic sorting.

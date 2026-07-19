@@ -1,4 +1,4 @@
-namespace Meckbaig.Cqrs.ListFliters.Extensions;
+namespace Meckbaig.Cqrs.ListFilters.Extensions;
 
 public static partial class JsonExtensions
 {

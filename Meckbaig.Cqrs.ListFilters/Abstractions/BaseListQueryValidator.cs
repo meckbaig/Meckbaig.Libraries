@@ -2,12 +2,12 @@ using AutoMapper;
 using FluentValidation;
 using Meckbaig.Cqrs.Dto.Abstractions;
 using Meckbaig.Cqrs.EntityFrameworkCore.Abstractons.Entities;
-using Meckbaig.Cqrs.ListFliters.Attrubutes;
-using Meckbaig.Cqrs.ListFliters.Extensions;
-using Meckbaig.Cqrs.ListFliters.Models;
+using Meckbaig.Cqrs.ListFilters.Attrubutes;
+using Meckbaig.Cqrs.ListFilters.Extensions;
+using Meckbaig.Cqrs.ListFilters.Models;
 using System.Linq.Expressions;
 
-namespace Meckbaig.Cqrs.ListFliters.Abstractions;
+namespace Meckbaig.Cqrs.ListFilters.Abstractions;
 
 public abstract class BaseListQueryValidator<TQuery, TResponseList, TDestintaion, TSource> : AbstractValidator<TQuery>
 	where TQuery : BaseListQuery<TResponseList>

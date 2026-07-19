@@ -2,9 +2,9 @@ using AutoMapper;
 using Meckbaig.Cqrs.Dto.Abstractions;
 using Meckbaig.Cqrs.Dto.Extensions;
 using Meckbaig.Cqrs.EntityFrameworkCore.Abstractons.Entities;
-using Meckbaig.Cqrs.ListFliters.ListFilters;
+using Meckbaig.Cqrs.ListFilters.ListFilters;
 
-namespace Meckbaig.Cqrs.ListFliters.Models;
+namespace Meckbaig.Cqrs.ListFilters.Models;
 
 public record OrderByExpression : IEntityFrameworkExpression<OrderByExpressionType>
 {

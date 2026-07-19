@@ -4,13 +4,13 @@ using Meckbaig.Cqrs.Dto.Abstractions;
 using Meckbaig.Cqrs.Dto.Extensions;
 using Meckbaig.Cqrs.EntityFrameworkCore.Abstractons.Entities;
 using Meckbaig.Cqrs.Extensions;
-using Meckbaig.Cqrs.ListFliters.Attrubutes;
-using Meckbaig.Cqrs.ListFliters.Models;
+using Meckbaig.Cqrs.ListFilters.Attrubutes;
+using Meckbaig.Cqrs.ListFilters.Models;
 using System.ComponentModel.DataAnnotations.Schema;
 using System.Linq.Expressions;
 using System.Reflection;
 
-namespace Meckbaig.Cqrs.ListFliters.Extensions;
+namespace Meckbaig.Cqrs.ListFilters.Extensions;
 
 /// <summary>
 /// Custom EF Core extencion class for dynamic filtering

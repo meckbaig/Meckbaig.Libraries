@@ -1,11 +1,11 @@
 using AutoMapper;
 using Meckbaig.Cqrs.Dto.Abstractions;
 using Meckbaig.Cqrs.Dto.Extensions;
-using Meckbaig.Cqrs.ListFliters.Attrubutes;
-using Meckbaig.Cqrs.ListFliters.Extensions;
-using Meckbaig.Cqrs.ListFliters.ListFilters;
+using Meckbaig.Cqrs.ListFilters.Attrubutes;
+using Meckbaig.Cqrs.ListFilters.Extensions;
+using Meckbaig.Cqrs.ListFilters.ListFilters;
 
-namespace Meckbaig.Cqrs.ListFliters.Models;
+namespace Meckbaig.Cqrs.ListFilters.Models;
 
 /// <summary>
 /// Class representing a filtering expression

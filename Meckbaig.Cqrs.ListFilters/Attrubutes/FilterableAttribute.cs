@@ -1,6 +1,6 @@
 using System.Runtime.CompilerServices;
 
-namespace Meckbaig.Cqrs.ListFliters.Attrubutes;
+namespace Meckbaig.Cqrs.ListFilters.Attrubutes;
 
 public class FilterableAttribute : Attribute
 {

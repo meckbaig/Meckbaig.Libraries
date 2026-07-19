@@ -1,4 +1,4 @@
-namespace Meckbaig.Cqrs.ListFliters.ListFilters;
+namespace Meckbaig.Cqrs.ListFilters.ListFilters;
 
 public interface IEntityFrameworkExpression<T> where T : Enum
 {

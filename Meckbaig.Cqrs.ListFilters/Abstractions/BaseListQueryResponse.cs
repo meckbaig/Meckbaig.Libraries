@@ -1,7 +1,7 @@
 using Meckbaig.Cqrs.Abstractons;
 using Meckbaig.Cqrs.Dto.Abstractions;
 
-namespace Meckbaig.Cqrs.ListFliters.Abstractions
+namespace Meckbaig.Cqrs.ListFilters.Abstractions
 {
 	public abstract class BaseListQueryResponse<TResult> : BaseResponse where TResult : IBaseDto
 	{
